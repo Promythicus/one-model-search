@@ -31,6 +31,22 @@ scoring as research line A.
 **Cost of the one-model route.** States: about 16 passages a second, once per contract set. Yes/no: 0.23 s a passage,
 6.8 s a question at 30 passages (the outline method of A-02: 2.7 s a question).
 
+**End to end** (`e2e27.py`, `out/e2e/scores.json`; the ten pilot contracts of line A, 410 questions, 248 marked clauses).
+
+| Way of reading | Right passage read | Clauses quoted | Seconds a question |
+| -------------- | ------------------ | -------------- | ------------------ |
+| own states, 12 passages | 86.2% | 73.0% | 3.0 |
+| own states then own yes/no, 12 passages | 95.1% | 82.7% | 3.4 + 6.1 |
+| own states then own yes/no, 24 passages | 95.1% | 70.2% | 3.9 + 6.1 |
+
+Line A on the same contracts: best separate search 70.6%, outline 80.6-81.9%, whole contract 82.3%. Reading 24
+scattered passages is worse than reading 12.
+
+**Speed of the yes/no step** (`out/rr27_speed.jsonl`, `out/rr27-short-every3.json`). 30 passages sent together: 8.6 s
+a question with 1, 4 or 8 server slots; 5.9 s with the server's RAM prompt cache off; 5.6 s with 8 slots. A shorter
+prompt (no system prompt, the clause's name only): 5.5 s against 6.8 s, at 85.7% against 87.5% on the same 21
+contracts. Fewer passages: 20 give 84.8%, 15 give 79.4%. Not solved: the limit is reading about 220 tokens a passage.
+
 **Limits.** One dataset, whose 41 kinds of question are the same in every contract. Mean-centring uses the passages
 of the set being searched (no labels). The yes/no step is too slow as run. Not yet measured: whether better search
 raises the answer score end to end.

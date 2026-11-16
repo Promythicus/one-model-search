@@ -43,6 +43,13 @@ End to end: 10 contracts, 410 questions, 248 marked clauses, same prompt and sco
 
 With 248 clauses, 81 to 83% are level. Reading 24 scattered passages is worse than reading 12.
 
+## Speed, so far
+
+The yes/no check is the slow part: about 0.2 s a passage on a 16 GB card. Sending the 30 passages together, with 1 to
+8 server slots, changed nothing (8.6 s a question); turning off the server's RAM prompt cache gave 5.9 s; a shorter
+prompt gave 5.5 s and cost two points (85.7% against 87.5%). Checking 20 passages instead of 30 gives 84.8%. Keeping
+each passage's state from intake, so that only the question is new work, is untried.
+
 ## How
 
 - `search/own27.py`: the model's state for each passage and question (through `tools/probe.cpp`, which reads a GGUF

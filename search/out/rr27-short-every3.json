@@ -1,0 +1,22 @@
+{
+ "layer": 36,
+ "first": 30,
+ "variant": "short",
+ "contracts": 21,
+ "own_states": {
+  "hit6k": 0.8213,
+  "span6k": 0.7588,
+  "hit12k": 0.9347,
+  "span12k": 0.8824
+ },
+ "own_states_then_own_yes_no": {
+  "hit6k": 0.9244,
+  "span6k": 0.8565,
+  "hit12k": 0.945,
+  "span12k": 0.8992
+ },
+ "time": {
+  "pairs": 8538,
+  "seconds": 1572.6
+ }
+}
