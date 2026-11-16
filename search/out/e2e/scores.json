@@ -1,0 +1,47 @@
+[
+ {
+  "mode": "states12",
+  "questions": 410,
+  "with_answer": 123,
+  "passage_recall": 0.862,
+  "found_precision": 0.623,
+  "found_recall": 0.886,
+  "found_f1": 0.732,
+  "quote_precision": 0.403,
+  "clause_recall": 0.73,
+  "quotes_verbatim": 0.958,
+  "sec_per_q": 2.97,
+  "prompt_tokens": 1207,
+  "bad_json": 2
+ },
+ {
+  "mode": "own12",
+  "questions": 410,
+  "with_answer": 123,
+  "passage_recall": 0.951,
+  "found_precision": 0.618,
+  "found_recall": 0.935,
+  "found_f1": 0.744,
+  "quote_precision": 0.396,
+  "clause_recall": 0.827,
+  "quotes_verbatim": 0.952,
+  "sec_per_q": 3.36,
+  "prompt_tokens": 1236,
+  "bad_json": 3
+ },
+ {
+  "mode": "own24",
+  "questions": 410,
+  "with_answer": 123,
+  "passage_recall": 0.951,
+  "found_precision": 0.627,
+  "found_recall": 0.902,
+  "found_f1": 0.74,
+  "quote_precision": 0.37,
+  "clause_recall": 0.702,
+  "quotes_verbatim": 0.946,
+  "sec_per_q": 3.92,
+  "prompt_tokens": 2330,
+  "bad_json": 7
+ }
+]

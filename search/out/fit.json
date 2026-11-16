@@ -1,0 +1,507 @@
+{
+ "pairs": 35917,
+ "practice_pairs": 14589,
+ "base": {
+  "practice": {
+   "hit6k": 0.8748,
+   "span6k": 0.7159,
+   "hit12k": 0.9324,
+   "span12k": 0.8029,
+   "questions": 503
+  },
+  "held_out": {
+   "hit6k": 0.8893,
+   "span6k": 0.7432,
+   "hit12k": 0.9312,
+   "span12k": 0.8252,
+   "questions": 741
+  }
+ },
+ "first_30_order": {
+  "held_out": {
+   "hit6k": 0.8232,
+   "span6k": 0.6741,
+   "hit12k": 0.9055,
+   "span12k": 0.7873,
+   "questions": 741
+  }
+ },
+ "layers": [
+  {
+   "layer": 0,
+   "practice": {
+    "hit6k": 0.8569,
+    "span6k": 0.7198,
+    "hit12k": 0.9364,
+    "span12k": 0.8116,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.807,
+    "span6k": 0.6604,
+    "hit12k": 0.9285,
+    "span12k": 0.8116,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 1,
+   "practice": {
+    "hit6k": 0.8708,
+    "span6k": 0.7256,
+    "hit12k": 0.9324,
+    "span12k": 0.8077,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.8165,
+    "span6k": 0.6598,
+    "hit12k": 0.9258,
+    "span12k": 0.8109,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 2,
+   "practice": {
+    "hit6k": 0.8787,
+    "span6k": 0.7314,
+    "hit12k": 0.9384,
+    "span12k": 0.8106,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.8111,
+    "span6k": 0.6499,
+    "hit12k": 0.9285,
+    "span12k": 0.8122,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 3,
+   "practice": {
+    "hit6k": 0.8827,
+    "span6k": 0.743,
+    "hit12k": 0.9384,
+    "span12k": 0.8135,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.8192,
+    "span6k": 0.6766,
+    "hit12k": 0.9258,
+    "span12k": 0.8122,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 4,
+   "practice": {
+    "hit6k": 0.8787,
+    "span6k": 0.742,
+    "hit12k": 0.9384,
+    "span12k": 0.8126,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.8057,
+    "span6k": 0.6517,
+    "hit12k": 0.9285,
+    "span12k": 0.8122,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 5,
+   "practice": {
+    "hit6k": 0.8767,
+    "span6k": 0.742,
+    "hit12k": 0.9404,
+    "span12k": 0.8135,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.8124,
+    "span6k": 0.6617,
+    "hit12k": 0.9177,
+    "span12k": 0.8103,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 6,
+   "practice": {
+    "hit6k": 0.8767,
+    "span6k": 0.7382,
+    "hit12k": 0.9384,
+    "span12k": 0.8077,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.8003,
+    "span6k": 0.6524,
+    "hit12k": 0.9271,
+    "span12k": 0.8178,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 7,
+   "practice": {
+    "hit6k": 0.9085,
+    "span6k": 0.7546,
+    "hit12k": 0.9404,
+    "span12k": 0.8106,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.834,
+    "span6k": 0.6897,
+    "hit12k": 0.9312,
+    "span12k": 0.8165,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 8,
+   "practice": {
+    "hit6k": 0.9125,
+    "span6k": 0.7575,
+    "hit12k": 0.9404,
+    "span12k": 0.8097,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.8812,
+    "span6k": 0.7251,
+    "hit12k": 0.9339,
+    "span12k": 0.8234,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 9,
+   "practice": {
+    "hit6k": 0.9165,
+    "span6k": 0.7604,
+    "hit12k": 0.9404,
+    "span12k": 0.8116,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.8893,
+    "span6k": 0.7382,
+    "hit12k": 0.9352,
+    "span12k": 0.8234,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 10,
+   "practice": {
+    "hit6k": 0.9125,
+    "span6k": 0.77,
+    "hit12k": 0.9404,
+    "span12k": 0.8126,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.888,
+    "span6k": 0.7475,
+    "hit12k": 0.9366,
+    "span12k": 0.8277,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 11,
+   "practice": {
+    "hit6k": 0.9225,
+    "span6k": 0.7778,
+    "hit12k": 0.9384,
+    "span12k": 0.8106,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.8853,
+    "span6k": 0.7494,
+    "hit12k": 0.9325,
+    "span12k": 0.8252,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 12,
+   "practice": {
+    "hit6k": 0.9245,
+    "span6k": 0.7903,
+    "hit12k": 0.9404,
+    "span12k": 0.8145,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.9096,
+    "span6k": 0.7873,
+    "hit12k": 0.9379,
+    "span12k": 0.8315,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 13,
+   "practice": {
+    "hit6k": 0.9364,
+    "span6k": 0.7952,
+    "hit12k": 0.9404,
+    "span12k": 0.8155,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.9177,
+    "span6k": 0.7892,
+    "hit12k": 0.9325,
+    "span12k": 0.8296,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 14,
+   "practice": {
+    "hit6k": 0.9344,
+    "span6k": 0.7981,
+    "hit12k": 0.9384,
+    "span12k": 0.8135,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.919,
+    "span6k": 0.7954,
+    "hit12k": 0.9312,
+    "span12k": 0.8308,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 15,
+   "practice": {
+    "hit6k": 0.9344,
+    "span6k": 0.8058,
+    "hit12k": 0.9384,
+    "span12k": 0.8145,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.9231,
+    "span6k": 0.7966,
+    "hit12k": 0.9325,
+    "span12k": 0.8284,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 16,
+   "practice": {
+    "hit6k": 0.9344,
+    "span6k": 0.8029,
+    "hit12k": 0.9404,
+    "span12k": 0.8164,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.9204,
+    "span6k": 0.7973,
+    "hit12k": 0.9339,
+    "span12k": 0.8327,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 17,
+   "practice": {
+    "hit6k": 0.9304,
+    "span6k": 0.7971,
+    "hit12k": 0.9364,
+    "span12k": 0.8126,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.9271,
+    "span6k": 0.7985,
+    "hit12k": 0.9298,
+    "span12k": 0.8296,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 18,
+   "practice": {
+    "hit6k": 0.9284,
+    "span6k": 0.8,
+    "hit12k": 0.9364,
+    "span12k": 0.8135,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.9231,
+    "span6k": 0.7966,
+    "hit12k": 0.9312,
+    "span12k": 0.8315,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 19,
+   "practice": {
+    "hit6k": 0.9304,
+    "span6k": 0.799,
+    "hit12k": 0.9384,
+    "span12k": 0.8145,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.9217,
+    "span6k": 0.7929,
+    "hit12k": 0.9325,
+    "span12k": 0.8321,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 20,
+   "practice": {
+    "hit6k": 0.9205,
+    "span6k": 0.7903,
+    "hit12k": 0.9404,
+    "span12k": 0.8164,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.9204,
+    "span6k": 0.7904,
+    "hit12k": 0.9339,
+    "span12k": 0.8315,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 21,
+   "practice": {
+    "hit6k": 0.9205,
+    "span6k": 0.7913,
+    "hit12k": 0.9384,
+    "span12k": 0.8155,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.919,
+    "span6k": 0.7935,
+    "hit12k": 0.9366,
+    "span12k": 0.834,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 22,
+   "practice": {
+    "hit6k": 0.9264,
+    "span6k": 0.7884,
+    "hit12k": 0.9404,
+    "span12k": 0.8145,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.9177,
+    "span6k": 0.7917,
+    "hit12k": 0.9352,
+    "span12k": 0.8333,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 23,
+   "practice": {
+    "hit6k": 0.9264,
+    "span6k": 0.7923,
+    "hit12k": 0.9404,
+    "span12k": 0.8155,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.919,
+    "span6k": 0.791,
+    "hit12k": 0.9352,
+    "span12k": 0.834,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 24,
+   "practice": {
+    "hit6k": 0.9264,
+    "span6k": 0.7942,
+    "hit12k": 0.9384,
+    "span12k": 0.8145,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.9204,
+    "span6k": 0.7935,
+    "hit12k": 0.9366,
+    "span12k": 0.8327,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 25,
+   "practice": {
+    "hit6k": 0.9245,
+    "span6k": 0.7894,
+    "hit12k": 0.9404,
+    "span12k": 0.8145,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.9204,
+    "span6k": 0.7904,
+    "hit12k": 0.9366,
+    "span12k": 0.8346,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 26,
+   "practice": {
+    "hit6k": 0.9284,
+    "span6k": 0.7942,
+    "hit12k": 0.9384,
+    "span12k": 0.8135,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.919,
+    "span6k": 0.7892,
+    "hit12k": 0.9352,
+    "span12k": 0.8302,
+    "questions": 741
+   }
+  },
+  {
+   "layer": 27,
+   "practice": {
+    "hit6k": 0.9304,
+    "span6k": 0.7903,
+    "hit12k": 0.9384,
+    "span12k": 0.8145,
+    "questions": 503
+   },
+   "held_out": {
+    "hit6k": 0.9217,
+    "span6k": 0.791,
+    "hit12k": 0.9339,
+    "span12k": 0.8308,
+    "questions": 741
+   }
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+{"tag": "slots=1", "questions": 59, "passages": 30, "mean_s": 8.6, "median_s": 8.72, "worst_s": 9.62, "score_diff_median": 0.0, "score_diff_p95": 0.0}
+{"tag": "slots=4", "questions": 59, "passages": 30, "mean_s": 8.7, "median_s": 8.89, "worst_s": 9.78, "score_diff_median": 0.288, "score_diff_p95": 0.998}
+{"tag": "slots=8", "questions": 59, "passages": 30, "mean_s": 8.96, "median_s": 9.1, "worst_s": 10.11, "score_diff_median": 0.275, "score_diff_p95": 1.035}
+{"tag": "slots=1, no prompt cache in RAM", "questions": 59, "passages": 30, "mean_s": 5.92, "median_s": 6.08, "worst_s": 6.85, "score_diff_median": 0.0, "score_diff_p95": 0.0}
+{"tag": "slots=8, no prompt cache in RAM", "questions": 59, "passages": 30, "mean_s": 5.6, "median_s": 5.69, "worst_s": 6.63, "score_diff_median": 0.305, "score_diff_p95": 1.009}

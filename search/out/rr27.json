@@ -1,0 +1,20 @@
+{
+ "layer": 36,
+ "first": 30,
+ "own_states": {
+  "hit6k": 0.8475,
+  "span6k": 0.7581,
+  "hit12k": 0.9258,
+  "span12k": 0.8744
+ },
+ "own_states_then_own_yes_no": {
+  "hit6k": 0.9447,
+  "span6k": 0.8781,
+  "hit12k": 0.946,
+  "span12k": 0.8943
+ },
+ "time": {
+  "pairs": 21028,
+  "seconds": 4793.7
+ }
+}
