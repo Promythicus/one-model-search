@@ -1,6 +1,6 @@
 # One model that searches and answers
 
-**Promythicus research. Author: Bardia Shahrestani.** Write-up for a general reader: [promythicus.com/blog/one-ai-model-searches-and-answers-contracts/](https://promythicus.com/blog/one-ai-model-searches-and-answers-contracts/)
+**Promythicus research.** Write-up for a general reader: [promythicus.com/blog/one-ai-model-searches-and-answers-contracts/](https://promythicus.com/blog/one-ai-model-searches-and-answers-contracts/)
 
 <a href="https://promythicus.com/blog/one-ai-model-searches-and-answers-contracts/"><img src="publish/infographic.png" alt="Summary of the results" width="540"></a>
 
@@ -78,9 +78,11 @@ costs about 0.2 s a passage on a 16 GB card; running the checks in parallel did 
 
 ## Licence
 
-Code and write-ups: Apache-2.0, copyright 2026 Promythicus Tech Inc. Author: Bardia Shahrestani. Result files that quote dataset text keep the
+Code and write-ups: Apache-2.0, copyright 2026 Promythicus Tech Inc. Result files that quote dataset text keep the
 dataset's licence (CUAD: CC BY 4.0, The Atticus Project).
 
 One run of each, our own scoring: these numbers cannot be set beside published benchmarks. Corrections are welcome:
 root@promythicus.com. More experiments: [github.com/Promythicus](https://github.com/Promythicus) ·
 [promythicus.com/blog](https://promythicus.com/blog/)
+
+<sub>Author: Bardia Shahrestani</sub>
