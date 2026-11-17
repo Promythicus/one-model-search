@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """One model for everything: can the 27B file we answer with also do the search, from its own internal states?
-Nothing is trained or fitted. (Experiment A-02's outline routing is the other one-model route: 81% of clauses.)
+Nothing is trained or fitted. (Experiment the outline-routing experiment's outline routing is the other one-model route: 81% of clauses.)
     python own27.py prompts    passages of the 62 held-out contracts and the questions, in two forms -> out/own27/<form>/in.jsonl
         mean   the bare text; the state averaged over its tokens
         eol    the text followed by "... in one word:"; the state at the last token (a known trick for getting a

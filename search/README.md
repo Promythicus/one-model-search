@@ -1,4 +1,4 @@
-# 05 Search for contracts with frozen models, ending at one model
+# Search for contracts with frozen models, ending at one model
 
 **Question.** Can clause search be sharpened without training, and can the model that answers (the 27B file) also do
 the search, so that nothing is swapped on the GPU?
@@ -29,7 +29,7 @@ scoring as research line A.
 - The released general CLM head is weak here. Caveats: 8-bit load, and its prompt format was not confirmed.
 
 **Cost of the one-model route.** States: about 16 passages a second, once per contract set. Yes/no: 0.23 s a passage,
-6.8 s a question at 30 passages (the outline method of A-02: 2.7 s a question).
+6.8 s a question at 30 passages (the outline method of the outline-routing experiment: 2.7 s a question).
 
 **End to end** (`e2e27.py`, `out/e2e/scores.json`; the ten pilot contracts of line A, 410 questions, 248 marked clauses).
 

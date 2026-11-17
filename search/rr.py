@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Sharpening the reranker (Qwen3-Reranker-0.6B) for contracts without training.
-    python rr.py feats     for every CUAD question with an answer: its first 30 passages (experiment 01's best search),
+    python rr.py feats     for every CUAD question with an answer: its first 30 passages (the loop-repair experiment's best search),
                            the reranker's own score and its internal state at the last position, every layer -> out/feats.pt
     python rr.py fit       on the practice contracts only: per layer, the closed-form direction that best separates
                            passages that hold an answer from those that do not; scored on the held-out contracts -> out/fit.json
 Split: the 102 test contracts shuffled with seed 3; first 40 practice, other 62 held out.
-Measures as in experiment 01: hit = a passage holding part of an answer is among those read; span = share of marked
+Measures as in the loop-repair experiment: hit = a passage holding part of an answer is among those read; span = share of marked
 clauses in a passage read; 6k = 12 passages of 500 characters, 12k = 24."""
 import json, os, random, sys
 import numpy as np, torch
